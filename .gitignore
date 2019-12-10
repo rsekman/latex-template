@@ -1,0 +1,10 @@
+*.pdf
+*.xdv
+*.fls
+*.fdb_latexmk
+*.bbl
+*Notes.bib
+*.aux
+*.log
+*.synctex.gz
+*.blg
