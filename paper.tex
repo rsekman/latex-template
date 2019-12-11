@@ -1,3 +1,4 @@
+%&paper.fmt
 \documentclass[showpacs,floatfix,aps,pra,twocolumn]{revtex4-1}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
@@ -10,10 +11,6 @@
 \usepackage[capitalise]{cleveref}
 \usepackage{etoolbox}
 \usepackage{csquotes}
-
-%Uncomment if needed and you know there will be no issues with xelatex etc
-%\usepackage{polyglossia}
-%\setmainlanguage{english}
 
 %TiKZ is very slow to load -- don't load if you can avoid it
 %Consider using a format
@@ -28,6 +25,16 @@
 %     eprint=true,
 %     maxnames=4,
 %     biblabel=brackets]{biblatex}
+
+
+%Uncomment if compiling using a format and using packages that have to be loaded after dumping
+%\endofdump
+%Packages below here have to be loaded after dumping the format
+
+%Uncomment if needed and you know there will be no issues with xelatex etc
+%\usepackage{polyglossia}
+%\setmainlanguage{english}
+
 
 \begin{document}
     \title{ }
